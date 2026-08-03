@@ -62,7 +62,7 @@ Documentele încărcate de Medic sunt trimise Operatorului din colegiul teritori
     <figcaption>Asigurarea nouă are starea „Nou” și apare separat de documentul aprobat.</figcaption>
 </figure>
 
-## Coada de validare a Operatorului
+## Lista documentelor care așteaptă validarea
 
 Zona **Document Validations** reunește documentele care trebuie verificate de Operator. Sumarul arată câte documente sunt în așteptare, aprobate sau respinse, iar lista poate fi căutată și filtrată după tip și stare.
 

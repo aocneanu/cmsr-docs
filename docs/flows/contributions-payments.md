@@ -108,7 +108,7 @@ După inițierea plății, My CMSR deschide formularul securizat al Băncii Tran
             alt="Rezultatul unei plăți de test respinse de procesatorul Banca Transilvania"
             loading="lazy">
     </a>
-    <figcaption>Rezultatul unei plăți de test respinse de procesator.</figcaption>
+    <figcaption>Rezultatul unei plăți de test respinse de procesator. În această situație, plata poate fi reluată.</figcaption>
 </figure>
 
 ## Situația cotizației
