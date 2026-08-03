@@ -89,6 +89,28 @@ Medicul își consultă cotizațiile și plățile, iar Operatorul înregistreaz
     ]'
 />
 
+## Plata online prin Banca Transilvania
+
+După inițierea plății, My CMSR deschide formularul securizat al Băncii Transilvania. Datele cardului sunt introduse numai în formularul procesatorului de plăți.
+
+<figure class="cmsr-doc-screenshot">
+    <a href="/screenshots/contributions-payments/05-btrl-payment-form.png" target="_blank">
+        <img src="/screenshots/contributions-payments/05-btrl-payment-form.png"
+            alt="Formularul securizat Banca Transilvania pentru plata unei cotizații"
+            loading="lazy">
+    </a>
+    <figcaption>Formularul Băncii Transilvania afișat pentru plata cotizației.</figcaption>
+</figure>
+
+<figure class="cmsr-doc-screenshot">
+    <a href="/screenshots/contributions-payments/06-btrl-payment-test-declined.png" target="_blank">
+        <img src="/screenshots/contributions-payments/06-btrl-payment-test-declined.png"
+            alt="Rezultatul unei plăți de test respinse de procesatorul Banca Transilvania"
+            loading="lazy">
+    </a>
+    <figcaption>Rezultatul unei plăți de test respinse de procesator.</figcaption>
+</figure>
+
 ## Situația cotizației
 
 În zona **Payments**, Medicul vede ultima lună achitată și starea curentă a cotizației. Istoricul afișează metoda, data, suma și starea fiecărei plăți.
@@ -142,7 +164,7 @@ Plățile în numerar și cu cardul la ghișeu sunt urmărite separat în zona *
 </figure>
 
 ::: info Date demonstrative
-Plata și datele din capturi sunt demonstrative. Nu a fost inițiată nicio tranzacție reală și nu a fost accesat un procesator extern de plăți.
+Plățile și datele din capturi sunt demonstrative. Capturile Băncii Transilvania provin din mediul de test; nu a fost inițiată nicio tranzacție reală.
 :::
 
 Vezi și [Evidența membrilor pentru Operator](/flows/operator-members) și [Cerere Medic → procesare Operator](/flows/request-lifecycle).
