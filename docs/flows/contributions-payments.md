@@ -1,6 +1,6 @@
 # Cotizația Medicului și evidența Operatorului
 
-Fluxul cotizațiilor conectează istoricul financiar disponibil Medicului cu evidența județeană administrată de Operator. Exemplul de mai jos urmărește o plată cash demonstrativă pentru luna curentă, înregistrată exclusiv în mediul local.
+Medicul își consultă cotizațiile și plățile, iar Operatorul înregistrează și urmărește plățile membrilor din colegiul teritorial. Exemplul prezintă o plată în numerar pentru luna curentă.
 
 ## Diagrama plății online
 
@@ -56,7 +56,7 @@ Fluxul cotizațiilor conectează istoricul financiar disponibil Medicului cu evi
     :steps='[
         {
             type: "handoff",
-            role: "Context · Admin → Operator",
+            role: "Configurare · Administrator",
             title: "Cotizațiile sunt disponibile în sistem",
             description: "Zona administrativă gestionează configurația cotizațiilor folosită în aplicația Operatorului.",
         },
@@ -99,17 +99,17 @@ Fluxul cotizațiilor conectează istoricul financiar disponibil Medicului cu evi
             alt="Istoricul cotizațiilor disponibil Medicului în My CMSR"
             loading="lazy">
     </a>
-    <figcaption>Situația la zi și plata demonstrativă din istoricul Medicului.</figcaption>
+    <figcaption>Medicul vede situația cotizației și plățile din istoric.</figcaption>
 </figure>
 
 ## Detaliile plății
 
-Pagina plății prezintă referința, starea, data, suma, metoda și datele de facturare asociate. În exemplul demonstrativ, plata este marcată **Plătită** și a fost înregistrată cash.
+Pagina plății prezintă referința, starea, data, suma, metoda și datele de facturare asociate. În exemplu, plata este marcată **Plătită** și a fost înregistrată în numerar.
 
 <figure class="cmsr-doc-screenshot">
     <a href="/screenshots/contributions-payments/02-medic-payment-details.jpg" target="_blank">
         <img src="/screenshots/contributions-payments/02-medic-payment-details.jpg"
-            alt="Detaliile unei plăți de cotizație în perspectiva Medicului"
+            alt="Detaliile unei plăți de cotizație în contul Medicului"
             loading="lazy">
     </a>
     <figcaption>Referința și informațiile plății consultate de Medic.</figcaption>
@@ -117,7 +117,7 @@ Pagina plății prezintă referința, starea, data, suma, metoda și datele de f
 
 ## Evidența cotizațiilor
 
-Operatorul poate căuta membrul după nume sau cod RU și vede suma, data, metoda și starea contribuției. Aceeași plată demonstrativă apare cu starea **Paid** în evidența județeană.
+Operatorul poate căuta membrul după nume sau cod RU și vede suma, data, metoda și starea cotizației. Aceeași plată apare cu starea **Paid** în interfața Operatorului.
 
 <figure class="cmsr-doc-screenshot">
     <a href="/screenshots/contributions-payments/03-operator-contribution-filtered.jpg" target="_blank">
@@ -125,24 +125,24 @@ Operatorul poate căuta membrul după nume sau cod RU și vede suma, data, metod
             alt="Cotizația unui membru în evidența Operatorului My CMSR"
             loading="lazy">
     </a>
-    <figcaption>Membrul demo filtrat în lista cotizațiilor Operatorului.</figcaption>
+    <figcaption>Operatorul găsește membrul și plata asociată în lista cotizațiilor.</figcaption>
 </figure>
 
 ## Operațiunea de ghișeu
 
-Plățile cash și cu card fizic înregistrate de Operator sunt urmărite separat în zona **Counter Operations**. Jurnalul păstrează data, referința, membrul, perioada acoperită, suma, metoda și Operatorul care a înregistrat operațiunea.
+Plățile în numerar și cu cardul la ghișeu sunt urmărite separat în zona **Counter Operations**. Lista arată data, referința, membrul, perioada, suma, metoda și Operatorul care a înregistrat plata.
 
 <figure class="cmsr-doc-screenshot">
     <a href="/screenshots/contributions-payments/04-operator-counter-operation.jpg" target="_blank">
         <img src="/screenshots/contributions-payments/04-operator-counter-operation.jpg"
-            alt="Operațiunea de ghișeu demonstrativă în My CMSR"
+            alt="O plată înregistrată în lista operațiunilor de ghișeu"
             loading="lazy">
     </a>
-    <figcaption>Trasabilitatea plății cash în jurnalul operațiunilor de ghișeu.</figcaption>
+    <figcaption>Plata în numerar apare în lista operațiunilor de ghișeu.</figcaption>
 </figure>
 
-::: info Scopul prezentării
-Plata și datele afișate sunt demonstrative și provin exclusiv din mediul local. Nu a fost inițiată nicio tranzacție reală și nu a fost accesat niciun procesator extern de plăți.
+::: info Date demonstrative
+Plata și datele din capturi sunt demonstrative. Nu a fost inițiată nicio tranzacție reală și nu a fost accesat un procesator extern de plăți.
 :::
 
 Vezi și [Evidența membrilor pentru Operator](/flows/operator-members) și [Cerere Medic → procesare Operator](/flows/request-lifecycle).

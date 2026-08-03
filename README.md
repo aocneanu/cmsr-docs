@@ -1,6 +1,6 @@
 # Documentație My CMSR
 
-Proiect VitePress pentru documentația aplicației My CMSR.
+Site-ul de documentație pentru aplicația My CMSR, construit cu VitePress.
 
 ## Instalarea dependențelor
 
@@ -10,13 +10,13 @@ yarn install
 
 ## Pornirea serverului local
 
-Comanda pornește serverul de dezvoltare VitePress cu HMR, iar documentația se actualizează automat când fișierele sunt modificate.
+Comanda pornește serverul local VitePress cu HMR. Modificările aduse documentației apar automat în browser.
 
 ```bash
 yarn docs:dev
 ```
 
-## Generarea documentației
+## Construirea site-ului
 
 ```bash
 yarn docs:build

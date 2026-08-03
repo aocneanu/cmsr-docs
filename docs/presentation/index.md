@@ -1,22 +1,22 @@
 # Prezentarea aplicației My CMSR
 
-Această secțiune va susține prezentarea aplicației printr-un fir narativ scurt, demonstrații controlate și materiale vizuale ușor de parcurs.
+Această secțiune ajută prezentatorul să parcurgă aplicația într-o ordine clară, cu demonstrații și materiale vizuale ușor de urmărit.
 
 ::: warning Conținut în pregătire
-Funcționalitățile și afirmațiile despre produs vor fi adăugate după finalizarea inventarului verificat al schimbărilor My CMSR.
+Structura prezentării va fi completată pe măsură ce sunt stabilite scenariile finale de demonstrație.
 :::
 
-## Pentru prezentarea imediată
+## Materiale pentru prezentare
 
-Paginile din această secțiune oferă cadrul de lucru pentru:
+Paginile din această secțiune ajută la pregătirea:
 
 - ordinea subiectelor și ritmul prezentării;
-- scenariile de demonstrație confirmate;
+- scenariilor de demonstrație;
 - capturile de ecran și diagramele care susțin mesajul;
 - notele necesare prezentatorului.
 
-Continuă cu [structura prezentării](./structure.md) pentru a completa firul narativ după ce inventarul de funcționalități este disponibil.
+Continuă cu [structura prezentării](./structure.md) pentru a organiza firul narativ.
 
 ## Principiul editorial
 
-Prezentarea va evidenția rezultate și fluxuri observabile în aplicație. Nu vor fi incluse promisiuni, roluri sau capabilități care nu au fost confirmate prin analiza My CMSR.
+Prezentarea pune accent pe acțiunile și rezultatele care pot fi arătate în aplicație. Funcțiile aflate încă în lucru sunt marcate explicit.

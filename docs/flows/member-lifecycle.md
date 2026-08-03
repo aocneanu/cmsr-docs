@@ -1,6 +1,6 @@
 # Ciclul de viață al membrului
 
-Operatorul gestionează evenimentele de ciclu de viață din evidența județeană. Înregistrarea, suspendarea și radierea sunt prezente în implementare; activarea rămâne de confirmat.
+Operatorul gestionează înscrierea, transferul, suspendarea și radierea membrilor din colegiul teritorial. Fiecare schimbare este păstrată în istoricul membrului.
 
 ## Fluxul operațional
 
@@ -12,11 +12,11 @@ Operatorul gestionează evenimentele de ciclu de viață din evidența județean
             type: "start",
             role: "Inițiator · Operator",
             title: "Deschide evidența membrului",
-            description: "Operatorul selectează membrul din aria județeană și consultă istoricul acestuia.",
+            description: "Operatorul selectează membrul din colegiul teritorial și îi consultă istoricul.",
         },
         {
             type: "handoff",
-            role: "Transfer · Operator → My CMSR",
+            role: "Acțiune · Operator",
             title: "Selectează acțiunea de ciclu de viață",
             description: "Sistemul afișează acțiunile disponibile pentru înregistrarea curentă.",
         },
@@ -44,17 +44,27 @@ Operatorul gestionează evenimentele de ciclu de viață din evidența județean
                     description: "Radierea și motivul asociat sunt înregistrate în evidența membrului.",
                     type: "danger",
                 },
-                {
-                    label: "Activare",
-                    title: "Trebuie confirmat",
-                    description: "Etapa, validarea și rezultatul activării nu sunt încă documentate ca flux confirmat.",
-                    type: "uncertain",
-                },
             ],
         },
     ]'
 />
 
-::: warning Punct deschis
-Fluxul numit „Activare” trebuie confirmat înainte de a fi prezentat ca funcționalitate disponibilă.
+## Capturi din flux
+
+<figure class="cmsr-doc-screenshot"><a href="/screenshots/member-lifecycle/01-member-timeline.jpg" target="_blank"><img src="/screenshots/member-lifecycle/01-member-timeline.jpg" alt="Istoricul schimbărilor înregistrate pentru un membru" loading="lazy"></a><figcaption>Istoricul arată schimbările înregistrate pentru membru.</figcaption></figure>
+
+<figure class="cmsr-doc-screenshot"><a href="/screenshots/member-lifecycle/05-inscriere-reinscriere.png" target="_blank"><img src="/screenshots/member-lifecycle/05-inscriere-reinscriere.png" alt="Înscrierea sau reînscrierea unui membru radiat" loading="lazy"></a><figcaption>Operatorul selectează colegiul și data efectivă pentru înscrierea sau reînscrierea unui membru eligibil.</figcaption></figure>
+
+<figure class="cmsr-doc-screenshot"><a href="/screenshots/member-lifecycle/02-transfer.jpg" target="_blank"><img src="/screenshots/member-lifecycle/02-transfer.jpg" alt="Formularul pentru transferul unui membru" loading="lazy"></a><figcaption>Operatorul alege colegiul și data de la care se aplică transferul.</figcaption></figure>
+
+<figure class="cmsr-doc-screenshot"><a href="/screenshots/member-lifecycle/03-suspend.jpg" target="_blank"><img src="/screenshots/member-lifecycle/03-suspend.jpg" alt="Formularul pentru suspendarea unui membru" loading="lazy"></a><figcaption>Operatorul completează tipul suspendării și data de la care aceasta se aplică.</figcaption></figure>
+
+<figure class="cmsr-doc-screenshot"><a href="/screenshots/member-lifecycle/04-deregister.jpg" target="_blank"><img src="/screenshots/member-lifecycle/04-deregister.jpg" alt="Formularul pentru radierea unui membru" loading="lazy"></a><figcaption>Operatorul completează motivul radierii și data de la care aceasta se aplică.</figcaption></figure>
+
+::: warning În curs de clarificare
+„Activare” nu este încă documentată ca acțiune distinctă și nu apare în diagramă sau în capturi.
+:::
+
+::: info Date demonstrative
+Formularul de înscriere sau reînscriere din captură nu a fost trimis.
 :::

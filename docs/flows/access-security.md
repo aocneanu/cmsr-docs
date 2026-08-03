@@ -1,12 +1,12 @@
 # Acces și securitate
 
-Accesul în My CMSR este comun Administratorului, Operatorului și Medicului. În prezentare, resetarea parolei este demonstrată o singură dată.
+Accesul în My CMSR este comun administratorului, operatorului și medicului.
 
 ## Resetarea parolei
 
 <FlowDiagram
     title="Resetarea parolei"
-    description="Flux comun celor trei roluri My CMSR."
+    description="Pașii sunt aceiași pentru toate cele trei roluri My CMSR."
     :steps='[
         {
             type: "start",
@@ -17,8 +17,8 @@ Accesul în My CMSR este comun Administratorului, Operatorului și Medicului. Î
         {
             type: "handoff",
             role: "Transfer · My CMSR → Utilizator",
-            title: "Primește legătura de resetare",
-            description: "Sistemul trimite mecanismul de continuare a resetării către utilizator.",
+            title: "Primește linkul de resetare",
+            description: "Sistemul trimite prin e-mail linkul necesar pentru continuarea resetării.",
         },
         {
             type: "action",
@@ -84,8 +84,8 @@ Accesul în My CMSR este comun Administratorului, Operatorului și Medicului. Î
     <figcaption>Confirmarea afișată după trimiterea solicitării pentru resetarea parolei.</figcaption>
 </figure>
 
-::: info Limită de documentare
-Diagrama nu descrie reguli tehnice pentru expirarea legăturii sau politica parolelor, deoarece acestea nu fac parte din planul de prezentare validat.
+::: info De reținut
+Perioada de valabilitate a linkului și regulile pentru alegerea parolei nu sunt descrise în această pagină.
 :::
 
-Continuă cu [Fluxuri My CMSR](/flows/) pentru conexiunile dintre cele trei perspective.
+Vezi și [legăturile dintre cele trei roluri My CMSR](/flows/).

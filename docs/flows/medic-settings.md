@@ -1,6 +1,6 @@
 # Setările contului Medic
 
-Din zona **Profil**, Medicul își gestionează informațiile auxiliare folosite în relația cu CMSR: semnătura, datele de facturare, adresele de corespondență, locurile de muncă și parola contului.
+Din **Profil**, Medicul își poate administra semnătura, datele de facturare, adresele de corespondență, locurile de muncă și parola.
 
 ## Semnătura
 
@@ -17,7 +17,7 @@ Semnătura poate fi desenată direct în spațiul dedicat. Controalele permit go
 
 ## Date de facturare
 
-Medicul poate adăuga profiluri de facturare cu denumire, identificator fiscal, formă juridică și adresă. Formularul demonstrativ este prezentat necompletat și nu salvează date.
+Medicul poate adăuga date de facturare pentru o persoană sau o organizație, inclusiv identificatorul fiscal și adresa.
 
 <figure class="cmsr-doc-screenshot">
     <a href="/screenshots/medic-settings/02-billing.jpg" target="_blank">
@@ -67,8 +67,8 @@ Parola contului poate fi schimbată din profil prin confirmarea parolei curente 
     <figcaption>Schimbarea parolei dintr-o sesiune autentificată.</figcaption>
 </figure>
 
-::: info Scopul prezentării
-Formularele au fost deschise în mediul local cu profilul demonstrativ și nu au fost trimise. Capturile descriu câmpurile și navigarea, nu reguli fiscale, juridice sau de securitate suplimentare.
+::: info Date demonstrative
+Formularele din capturi nu au fost trimise. Pentru completare se aplică regulile fiscale, juridice și de securitate corespunzătoare fiecărei situații.
 :::
 
 Vezi și [Profilul Medicului și documentele](/flows/medic-profile), [Acces și securitate](/flows/access-security) și [Document de profil: transmitere și validare](/flows/profile-document-validation).

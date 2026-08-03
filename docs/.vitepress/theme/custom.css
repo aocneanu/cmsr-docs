@@ -698,7 +698,31 @@ body {
     }
 }
 
-@media (max-width: 639px) {
+@media (max-width: 767px) {
+    :root {
+        --vp-nav-height: 64px;
+    }
+
+    .VPNavBarTitle {
+        min-width: 0;
+    }
+
+    .VPNavBar.has-sidebar .container > .title {
+        border-right: 0;
+        background: transparent;
+    }
+
+    .VPNavBarTitle .title {
+        gap: 0.5rem;
+        font-size: 1.05rem;
+        white-space: nowrap;
+    }
+
+    .VPNavBarTitle .logo {
+        flex-shrink: 0;
+        height: 2rem;
+    }
+
     .cmsr-home-intro,
     .cmsr-audiences,
     .cmsr-flows-callout {

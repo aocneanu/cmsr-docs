@@ -1,14 +1,14 @@
 # Structura prezentării
 
-Acesta este cadrul inițial pentru prezentare. Titlurile finale și timpul alocat fiecărei secțiuni vor fi stabilite după verificarea inventarului de funcționalități.
+Această structură poate fi adaptată în funcție de public și de timpul disponibil.
 
 ## 1. Context și obiectiv
 
-Definește publicul, problema abordată și rezultatul urmărit de prezentare.
+Prezintă publicul, nevoia la care răspunde My CMSR și obiectivul demonstrației.
 
 ## 2. Turul aplicației
 
-Grupează funcționalitățile confirmate într-o ordine logică pentru public. Pentru fiecare secvență se vor nota:
+Grupează funcțiile aplicației într-o ordine ușor de urmărit. Pentru fiecare secvență notează:
 
 - ideea principală;
 - pașii demonstrației;
@@ -18,12 +18,12 @@ Grupează funcționalitățile confirmate într-o ordine logică pentru public. 
 
 ## 3. Fluxuri reprezentative
 
-Selectează doar fluxurile complete, stabile și relevante pentru publicul prezentării.
+Alege fluxurile relevante pentru public și marchează clar orice etapă aflată încă în lucru.
 
 ## 4. Rezultate și pașii următori
 
-Încheie prin recapitularea beneficiilor demonstrate și prin clarificarea etapelor care urmează.
+Încheie cu o recapitulare a beneficiilor prezentate și a pașilor următori.
 
-::: info De completat după analiză
-Inventarul verificat va determina ce intră în tur, ce merită o demonstrație separată și ce rămâne în manual.
+::: info Recomandare
+Păstrează în tur doar informațiile utile publicului și mută explicațiile detaliate în manual.
 :::

@@ -1,6 +1,6 @@
 # Document de profil: transmitere și validare
 
-Documentele încărcate de Medic intră într-un circuit separat de validare la nivelul colegiului teritorial. Exemplul local urmărește o asigurare nouă, păstrând separat documentul deja aprobat și activ.
+Documentele încărcate de Medic sunt trimise Operatorului din colegiul teritorial pentru verificare. Exemplul urmărește o asigurare nouă, afișată separat de documentul deja aprobat.
 
 ## Diagrama fluxului
 
@@ -59,12 +59,12 @@ Documentele încărcate de Medic intră într-un circuit separat de validare la 
             alt="Documentele aprobate și documentul nou din profilul Medicului"
             loading="lazy">
     </a>
-    <figcaption>Asigurarea demonstrativă nouă apare cu starea „Nou” și este separată de documentul aprobat și activ.</figcaption>
+    <figcaption>Asigurarea nouă are starea „Nou” și apare separat de documentul aprobat.</figcaption>
 </figure>
 
 ## Coada de validare a Operatorului
 
-Zona **Document Validations** reunește documentele membrilor din aria Operatorului. Rezumatul arată volumele în așteptare, aprobate și respinse, iar lista poate fi căutată și filtrată după tip și stare.
+Zona **Document Validations** reunește documentele care trebuie verificate de Operator. Sumarul arată câte documente sunt în așteptare, aprobate sau respinse, iar lista poate fi căutată și filtrată după tip și stare.
 
 <figure class="cmsr-doc-screenshot">
     <a href="/screenshots/profile-document-validation/02-operator-validation-queue.jpg" target="_blank">
@@ -85,11 +85,11 @@ Zona **Document Validations** reunește documentele membrilor din aria Operatoru
             alt="Revizuirea unei asigurări în interfața Operatorului"
             loading="lazy">
     </a>
-    <figcaption>Verificarea stării, datelor asigurării și dovezii PDF înaintea unei decizii.</figcaption>
+    <figcaption>Operatorul verifică datele asigurării și documentul PDF înainte de a lua o decizie.</figcaption>
 </figure>
 
-::: info Scopul prezentării
-Datele și documentele sunt demonstrative și provin exclusiv din mediul local. Capturile prezintă interfața și traseul verificat, fără a defini criterii de aprobare, responsabilități juridice sau termene de soluționare.
+::: info Date demonstrative
+Datele și documentele din capturi sunt demonstrative. Criteriile de aprobare și termenele de soluționare depind de tipul documentului și de regulile aplicabile.
 :::
 
 Vezi și [Profilul Medicului și documentele](/flows/medic-profile), [Evidența membrilor pentru Operator](/flows/operator-members) și [Credite EMC: transmitere și procesare](/flows/emc-credits).

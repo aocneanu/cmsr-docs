@@ -1,43 +1,42 @@
 # Administrator
 
-Administratorul utilizează interfața clasică de back-office web My CMSR pentru administrarea sistemului și pentru funcțiile operaționale cu acoperire generală.
+Administratorul configurează și administrează My CMSR din interfața web de back-office.
 
 ## Capabilități generale
 
-- **Marcaje rapide** — acces rapid la zonele de lucru utilizate frecvent.
-- **Tabele** — instrumente comune pentru explorarea și prelucrarea listelor.
-  - **Filtrare** — restrângerea rezultatelor după criteriile disponibile.
-  - **Sortare** — ordonarea informațiilor afișate.
-  - **Căutare** — identificarea rapidă a înregistrărilor relevante.
-  - **Export** — extragerea datelor disponibile din tabele.
-- **Formulare** — introducerea și actualizarea structurată a datelor.
-  - **Validări** — verificarea informațiilor completate.
-  - **Tipuri de câmpuri** — controale adaptate informațiilor solicitate.
-- **Internaționalizare** — administrarea conținutului disponibil în mai multe limbi.
-- **Audit și monitorizare** — urmărirea accesului și a activității din sistem.
-  - **Autentificări** — evidența accesărilor sistemului.
-  - **Acțiuni** — urmărirea acțiunilor realizate în aplicație.
-  - **Jurnal de audit** — consultarea istoricului operațiunilor auditate.
-  - **Jurnal API** — consultarea activității înregistrate la nivelul interfețelor API.
+- **Bookmarks** — Păstrează mai multe pagini deschise și permite comutarea rapidă între ele.
+- **Tabele** — afișează listele de lucru și oferă instrumente pentru găsirea și prelucrarea informațiilor.
+  - **Filtrare** — restrânge lista după criteriile alese.
+  - **Sortare** — ordonează rezultatele după coloana selectată.
+  - **Căutare** — găsește înregistrările relevante.
+  - **Export** — descarcă datele disponibile din tabel.
+- **Formulare** — permit adăugarea și actualizarea informațiilor.
+  - **Validări** — semnalează câmpurile care trebuie completate sau corectate.
+  - **Tipuri de câmpuri** — adaptează modul de completare la informația solicitată.
+- **Internaționalizare** — gestionează limbile și textele disponibile în aplicație.
+- **Audit și monitorizare** — oferă o imagine asupra accesului și activității din sistem.
+  - **Autentificări** — arată cine a accesat sistemul și când.
+  - **Acțiuni** — arată operațiunile efectuate în aplicație.
+  - **Jurnal de audit** — păstrează istoricul modificărilor înregistrate.
+  - **Jurnal API** — prezintă activitatea înregistrată pentru interfețele API.
 
 ## Administrarea sistemului
 
-- **[Back-office verificat](/flows/admin-backoffice)** — exemple ilustrate pentru conținut, cotizații, cereri și stări.
 - **[Cotizații](/flows/admin-backoffice#configurarea-cotizatiilor)** — administrarea valorilor lunare, penalităților și TVA-ului.
-- **Evenimente** — gestionarea evenimentelor și a participării.
+- **Evenimente** — administrarea evenimentelor și a participanților.
   - **Creare** — adăugarea unui eveniment.
   - **Lista participanților** — consultarea participanților asociați evenimentului.
-- **Reviste** — gestionarea informațiilor despre reviste.
+- **Reviste** — administrarea revistelor medicale și a abonamentelor.
   - **Lista abonaților** — consultarea abonaților.
-- **Notificări** — comunicări și informări către aplicațiile My CMSR.
+- **Notificări** — configurarea informărilor transmise în aplicațiile My CMSR.
 - **Documente** — configurarea resurselor utilizate pentru documente.
   - **Tipuri de documente** — administrarea tipurilor disponibile.
   - **Șabloane** — administrarea șabloanelor de documente.
-- **Mesagerie** — comunicarea din zona de back-office cu aplicația Medic.
+- **Mesagerie** — transmiterea mesajelor din back-office către aplicația Medic.
 - **[Configuratorul de cereri](/flows/admin-backoffice#sabloanele-de-cereri)** — configurarea tipurilor de cereri disponibile în sistem.
 - **[Întrebări frecvente](/flows/admin-backoffice#continutul-pentru-intrebari-frecvente)** — administrarea conținutului publicat Medicului.
 - **[Stări operaționale](/flows/admin-backoffice#starile-documentelor-de-profil)** — configurarea stărilor pentru documente, cereri și credite EMC.
 
 ## Rol în sistem
 
-Administratorul susține infrastructura operațională comună celorlalte perspective. [Back-office-ul Administratorului](/flows/admin-backoffice) prezintă ecranele verificate, [Fluxuri My CMSR](/flows/) arată punctele de legătură, iar [Acces și securitate](/flows/access-security) documentează separat fluxul comun de resetare a parolei.
+Configurările Administratorului susțin funcțiile folosite de Medic și Operator. Vezi [funcțiile din back-office](/flows/admin-backoffice), [legăturile dintre roluri](/flows/) și pașii pentru [resetarea parolei](/flows/access-security).

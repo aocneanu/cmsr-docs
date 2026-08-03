@@ -1,6 +1,6 @@
-# Cerere Medic → procesare Operator
+# Cereri: de la Medic la Operator
 
-Fluxul de cereri conectează autoservirea Medicului cu activitatea județeană a Operatorului. Exemplul de mai jos urmărește o cerere gratuită de **Adeverință generală**, transmisă online și preluată ulterior pentru validare.
+Medicul depune cererea online, iar Operatorul din colegiul teritorial o preia pentru analiză. Exemplul urmărește o cerere gratuită de **Adeverință generală**.
 
 ## Diagrama fluxului
 
@@ -12,7 +12,7 @@ Fluxul de cereri conectează autoservirea Medicului cu activitatea județeană a
             type: "start",
             role: "Inițiator · Medic",
             title: "Selectează și completează cererea",
-            description: "Medicul completează datele și documentele cerute de tipul de cerere configurat.",
+            description: "Medicul completează datele și documentele cerute de tipul de cerere configurat. Pentru cererile care folosesc documente tipizate, aplicația poate genera documente pe baza șabloanelor configurate, cu câmpuri precompletate.",
         },
         {
             type: "action",
@@ -73,10 +73,6 @@ Fluxul de cereri conectează autoservirea Medicului cu activitatea județeană a
     ]'
 />
 
-::: info Nivel de detaliu
-Diagrama nu stabilește ce documente sunt obligatorii și nici regulile de aprobare pentru un anumit tip de cerere.
-:::
-
 ## Alegerea tipului de cerere
 
 Medicul pornește din zona **Cereri**, unde vede tipurile disponibile pentru profilul său. Opțiunile care nu îndeplinesc cerințele curente sunt marcate separat, iar cele eligibile pot fi deschise pentru completare.
@@ -87,12 +83,12 @@ Medicul pornește din zona **Cereri**, unde vede tipurile disponibile pentru pro
             alt="Tipurile de cereri disponibile Medicului în My CMSR"
             loading="lazy">
     </a>
-    <figcaption>Selectarea cererii „Adeverință generală” din opțiunile disponibile profilului demo.</figcaption>
+    <figcaption>Medicul selectează „Adeverință generală” din cererile disponibile.</figcaption>
 </figure>
 
 ## Transmiterea și urmărirea
 
-În formular, Medicul consultă documentele necesare și alege opțiunile de facturare, livrare și plată disponibile. Pentru exemplul demonstrativ, cererea are valoarea de `0,00 lei`, folosește datele persoanei fizice și este livrată online.
+În formular, Medicul vede documentele necesare și alege opțiunile disponibile pentru facturare, livrare și plată. În exemplul prezentat, cererea este gratuită, folosește datele persoanei fizice și va fi livrată online.
 
 După transmitere, My CMSR atribuie o referință și afișează starea curentă, documentele, notele și informațiile cererii.
 
@@ -105,14 +101,14 @@ După transmitere, My CMSR atribuie o referință și afișează starea curentă
     <figcaption>Cererea transmisă, cu referința și starea „Nou”.</figcaption>
 </figure>
 
-## Coada județeană a Operatorului
+## Lista de solicitări a operatorului
 
-Cererea apare în lista **General Requests** a Operatorului din același colegiu teritorial. Lista oferă filtre și afișează referința, tipul, membrul, codul RU, data, suma și starea.
+Lista include cererile din aria de lucru a Operatorului. Pentru fiecare cerere sunt afișate referința, tipul, membrul, codul RU, data, suma și starea, iar rezultatele pot fi filtrate.
 
 <figure class="cmsr-doc-screenshot">
     <a href="/screenshots/request-lifecycle/03-operator-request-queue.jpg" target="_blank">
         <img src="/screenshots/request-lifecycle/03-operator-request-queue.jpg"
-            alt="Cererea demonstrativă în coada județeană a Operatorului"
+            alt="Cererea nouă în lista de solicitări a operatorului"
             loading="lazy">
     </a>
     <figcaption>Identificarea cererii noi în lista Operatorului.</figcaption>
@@ -128,11 +124,15 @@ Pagina de detaliu reunește informațiile cererii, membrul, datele de facturare 
             alt="Cerere preluată în validare de Operator în My CMSR"
             loading="lazy">
     </a>
-    <figcaption>Detaliile operaționale după preluarea cererii pentru validare.</figcaption>
+    <figcaption>Operatorul vede toate informațiile necesare după preluarea cererii.</figcaption>
 </figure>
 
-::: info Scopul prezentării
-Datele și cererea sunt demonstrative și provin exclusiv din mediul local. Capturile confirmă traseul disponibil în aplicație, fără a defini criterii de aprobare, termene de procesare sau excepții de business.
+::: info De reținut
+Documentele necesare, regulile de aprobare și termenele de procesare diferă în funcție de tipul cererii.
+:::
+
+::: info Date demonstrative
+Datele și cererea din capturi sunt demonstrative.
 :::
 
 Vezi și [Profilul Medicului și documentele](/flows/medic-profile) și [Evidența membrilor pentru Operator](/flows/operator-members).

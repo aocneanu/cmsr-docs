@@ -1,12 +1,12 @@
 # Profilul Medicului și documentele
 
-După autentificare, Medicul intră în experiența de autoservire My CMSR. Fluxul de mai jos prezintă punctele principale de orientare, accesul la profil și consultarea documentelor asociate.
+După autentificare, Medicul ajunge în Dashboard și poate deschide profilul, datele de contact și documentele sale.
 
 Pentru recuperarea accesului, vezi separat [Acces și securitate](/flows/access-security).
 
 ## Dashboard
 
-Dashboard-ul reunește informațiile esențiale pentru Medic: situația cotizației, valabilitatea asigurării și a actului de identitate, creditele EMC, cererile și accesul la ajutor.
+Dashboard-ul arată situația cotizației, valabilitatea asigurării și a actului de identitate, creditele EMC, cererile și accesul la ajutor.
 
 <figure class="cmsr-doc-screenshot">
     <a href="/screenshots/medic-profile/01-medic-dashboard.jpg" target="_blank">
@@ -14,12 +14,12 @@ Dashboard-ul reunește informațiile esențiale pentru Medic: situația cotizaț
             alt="Dashboard-ul My CMSR pentru utilizatorul Medic"
             loading="lazy">
     </a>
-    <figcaption>Dashboard-ul Medicului și informațiile operaționale disponibile la intrarea în aplicație.</figcaption>
+    <figcaption>Dashboard-ul oferă o privire rapidă asupra situației profesionale și financiare a Medicului.</figcaption>
 </figure>
 
 ## Profil
 
-Zona de profil afișează identitatea profesională a utilizatorului și oferă acces la datele de contact, documente, semnătură, parolă, facturare, adrese și locuri de muncă.
+Profilul reunește identitatea profesională, datele de contact, documentele, semnătura, parola, facturarea, adresele și locurile de muncă.
 
 <figure class="cmsr-doc-screenshot">
     <a href="/screenshots/medic-profile/02-medic-profile.jpg" target="_blank">
@@ -27,7 +27,7 @@ Zona de profil afișează identitatea profesională a utilizatorului și oferă 
             alt="Sumarul profilului Medicului în My CMSR"
             loading="lazy">
     </a>
-    <figcaption>Sumarul profilului și punctele de acces către informațiile asociate.</figcaption>
+    <figcaption>Din sumarul profilului, Medicul deschide fiecare categorie de informații.</figcaption>
 </figure>
 
 ## Date de contact
@@ -56,8 +56,8 @@ Lista documentelor permite consultarea stării, valabilității și informațiil
     <figcaption>Documentele profilului, cu starea și perioada de valabilitate vizibile în listă.</figcaption>
 </figure>
 
-::: info Scopul prezentării
-Datele afișate sunt demonstrative și provin exclusiv din mediul local. Fluxul ilustrează navigarea și consultarea informațiilor, fără a descrie reguli de validare sau aprobare.
+::: info Date demonstrative
+Datele din capturi sunt demonstrative. Regulile de validare și aprobare a documentelor sunt prezentate separat.
 :::
 
-Continuă cu [Fluxuri My CMSR](/flows/) pentru legătura dintre Medic, Operator și Administrator.
+Vezi și [legăturile dintre Medic, Operator și Administrator](/flows/).

@@ -1,12 +1,12 @@
 # Credite EMC
 
-Medicul poate depune o cerere pentru credite EMC, iar Operatorul o procesează în aplicația județeană.
+Medicul solicită acordarea creditelor EMC, iar Operatorul din colegiul teritorial verifică cererea și documentele trimise.
 
 ## Fluxul cererii EMC
 
 <FlowDiagram
     title="Depunerea și procesarea unei cereri EMC"
-    description="Cererea leagă experiența Medicului de activitatea Operatorului."
+    description="Medicul trimite cererea, iar Operatorul o verifică și stabilește rezultatul."
     :steps='[
         {
             type: "start",
@@ -54,6 +54,18 @@ Medicul poate depune o cerere pentru credite EMC, iar Operatorul o procesează �
     ]'
 />
 
-::: info Acțiune suplimentară confirmată
+## Capturi din flux
+
+<figure class="cmsr-doc-screenshot"><a href="/screenshots/emc-credits/01-medic-emc-overview.jpg" target="_blank"><img src="/screenshots/emc-credits/01-medic-emc-overview.jpg" alt="Situația creditelor EMC din contul Medicului" loading="lazy"></a><figcaption>Medicul vede progresul creditelor EMC și poate începe o cerere nouă.</figcaption></figure>
+
+<figure class="cmsr-doc-screenshot"><a href="/screenshots/emc-credits/02-operator-emc-queue.jpg" target="_blank"><img src="/screenshots/emc-credits/02-operator-emc-queue.jpg" alt="Coada cererilor EMC a Operatorului" loading="lazy"></a><figcaption>Operatorul filtrează și deschide cererile EMC ale colegiului.</figcaption></figure>
+
+<figure class="cmsr-doc-screenshot"><a href="/screenshots/emc-credits/03-operator-emc-processing.jpg" target="_blank"><img src="/screenshots/emc-credits/03-operator-emc-processing.jpg" alt="Ecranul pentru verificarea unei cereri EMC" loading="lazy"></a><figcaption>Operatorul consultă documentul și informațiile despre sursa creditelor.</figcaption></figure>
+
+::: info Adăugarea directă a unui credit
 Operatorul poate adăuga direct un credit EMC unui membru; creditul este înregistrat, iar Medicul este notificat.
+:::
+
+::: warning Funcție indisponibilă momentan
+Pagina cu detaliile cererii EMC nu este disponibilă în contul Medicului și nu apare în capturi.
 :::

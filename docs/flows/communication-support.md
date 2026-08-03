@@ -1,12 +1,12 @@
 # Mesaje, notificări și ajutor
 
-My CMSR oferă fiecărui rol o zonă proprie de notificări. Evenimentele operaționale relevante sunt transformate în mesaje de sistem, iar Medicul are separat acces la întrebările frecvente publicate în platformă.
+Fiecare rol primește notificările care îi sunt adresate. Medicul are și o zonă de mesaje, precum și acces la întrebările frecvente publicate de Administrator.
 
 ## Diagrama notificărilor Admin–Operator
 
 <FlowDiagram
     title="Transmiterea unei notificări către Operatori"
-    description="Zona este prezentată Operatorului ca flux de notificări operaționale."
+    description="Administratorul transmite informări relevante Operatorilor."
     :steps='[
         {
             type: "start",
@@ -40,7 +40,7 @@ My CMSR oferă fiecărui rol o zonă proprie de notificări. Evenimentele opera�
 
 <FlowDiagram
     title="Transmiterea unui mesaj către Medici"
-    description="Mesajul este distribuit în experiența My CMSR a Medicului."
+    description="Mesajul este transmis în aplicația My CMSR a Medicului."
     :steps='[
         {
             type: "start",
@@ -72,7 +72,7 @@ My CMSR oferă fiecărui rol o zonă proprie de notificări. Evenimentele opera�
 
 ## Notificările Medicului
 
-Zona **Mesaje** afișează notificările primite, momentul transmiterii și starea de citire. Exemplul local pornește de la cererea demonstrativă transmisă de Medic.
+Zona **Mesaje** afișează notificările primite, momentul transmiterii și starea de citire. Exemplul pornește de la cererea transmisă de Medic.
 
 <figure class="cmsr-doc-screenshot">
     <a href="/screenshots/communication-support/01-medic-inbox.jpg" target="_blank">
@@ -80,7 +80,7 @@ Zona **Mesaje** afișează notificările primite, momentul transmiterii și star
             alt="Lista de notificări din contul Medicului"
             loading="lazy">
     </a>
-    <figcaption>Confirmarea înregistrării cererii apare în inbox-ul Medicului.</figcaption>
+    <figcaption>Confirmarea înregistrării cererii apare în lista de mesaje a Medicului.</figcaption>
 </figure>
 
 Deschiderea mesajului afișează expeditorul de sistem, titlul, data și conținutul notificării. Mesajul este marcat drept citit la consultare.
@@ -91,12 +91,12 @@ Deschiderea mesajului afișează expeditorul de sistem, titlul, data și conțin
             alt="Detaliul unei notificări de sistem pentru Medic"
             loading="lazy">
     </a>
-    <figcaption>Detaliul confirmării automate pentru cererea demonstrativă.</figcaption>
+    <figcaption>Mesajul confirmă automat înregistrarea cererii.</figcaption>
 </figure>
 
 ## Notificările Operatorului
 
-Operatorul primește separat notificarea operațională corespunzătoare. Inbox-ul oferă indicatori pentru mesajele necitite, activitatea zilei, mesajele procesate și total, plus căutare și filtrare după stare.
+Operatorul primește notificările operaționale în zona dedicată. Sumarul arată mesajele necitite, activitatea zilei, mesajele procesate și totalul, iar lista poate fi căutată și filtrată după stare.
 
 <figure class="cmsr-doc-screenshot">
     <a href="/screenshots/communication-support/03-operator-inbox.jpg" target="_blank">
@@ -109,7 +109,7 @@ Operatorul primește separat notificarea operațională corespunzătoare. Inbox-
 
 ## Întrebări frecvente pentru Medic
 
-Secțiunea **Întrebări frecvente** grupează răspunsurile publicate în platformă. Medicul deschide punctual întrebarea dorită, fără a părăsi experiența My CMSR.
+Secțiunea **Întrebări frecvente** grupează răspunsurile publicate în platformă. Medicul poate deschide răspunsul dorit direct din aplicația My CMSR.
 
 <figure class="cmsr-doc-screenshot">
     <a href="/screenshots/communication-support/04-medic-faq.jpg" target="_blank">
@@ -120,8 +120,8 @@ Secțiunea **Întrebări frecvente** grupează răspunsurile publicate în platf
     <figcaption>Exemplu de răspuns publicat despre creditele EMC.</figcaption>
 </figure>
 
-::: info Scopul prezentării
-Mesajele și datele provin exclusiv din mediul local. Capturile confirmă notificările automate și conținutul FAQ disponibil; nu presupun existența unui canal de conversație directă între Medic și Operator.
+::: info De reținut
+Mesajele și notificările prezentate nu reprezintă un canal de conversație directă între Medic și Operator.
 :::
 
 Vezi și [Cerere Medic → procesare Operator](/flows/request-lifecycle), [Credite EMC: transmitere și procesare](/flows/emc-credits) și [Acces și securitate](/flows/access-security).
