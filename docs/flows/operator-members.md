@@ -17,7 +17,7 @@ Lista poate fi restrânsă prin căutare și prin filtrele disponibile. Rezultat
 
 ## Sumarul membrului
 
-Pagina membrului reunește starea curentă, situația cotizației, creditele EMC și valabilitatea asigurării de malpraxis. Filele de sub sumar oferă acces la categoriile de informații asociate înregistrării.
+Pagina membrului reunește starea curentă, situația cotizației, creditele EMC și valabilitatea asigurării de malpraxis.
 
 <figure class="cmsr-doc-screenshot">
     <a href="/screenshots/operator-members/02-operator-member-overview.jpg" target="_blank">

@@ -28,7 +28,6 @@ Zona **Diplome** reunește diplomele asociate evenimentelor acreditate CMSR și 
                 {
                     label: "Nu · Fără rezultate",
                     title: "Este afișată starea goală",
-                    description: "My CMSR explică faptul că nu există evenimente pentru care poate fi emisă o diplomă.",
                     type: "warning",
                 },
             ],

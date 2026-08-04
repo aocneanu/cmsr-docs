@@ -62,10 +62,6 @@ Medicul solicită acordarea creditelor EMC, iar Operatorul din colegiul teritori
 
 <figure class="cmsr-doc-screenshot"><a href="/screenshots/emc-credits/03-operator-emc-processing.jpg" target="_blank"><img src="/screenshots/emc-credits/03-operator-emc-processing.jpg" alt="Ecranul pentru verificarea unei cereri EMC" loading="lazy"></a><figcaption>Operatorul consultă documentul și informațiile despre sursa creditelor.</figcaption></figure>
 
-::: info Adăugarea directă a unui credit
-Operatorul poate adăuga direct un credit EMC unui membru; creditul este înregistrat, iar Medicul este notificat.
-:::
-
-::: warning Funcție indisponibilă momentan
-Pagina cu detaliile cererii EMC nu este disponibilă în contul Medicului și nu apare în capturi.
+::: info Adăugarea de credite
+Operatorul poate adăuga direct credite EMC unui membru; creditul este înregistrat, iar Medicul este notificat.
 :::
