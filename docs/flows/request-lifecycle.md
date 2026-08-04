@@ -53,7 +53,7 @@ Medicul depune cererea online, iar Operatorul din colegiul teritorial o preia pe
                 {
                     label: "Aprobare · Rezultat",
                     title: "Cererea este aprobată",
-                    description: "Medicul este notificat, iar documentul de rezultat poate fi generat când tipul cererii este configurat astfel.",
+                    description: "Medicul este notificat. Dacă cererea este configurată să se finalizeze cu un document tipizat, acesta poate fi acum generat.",
                     type: "success",
                 },
                 {
