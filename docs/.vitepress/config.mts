@@ -44,6 +44,13 @@ export default defineConfig({
                     { text: 'Back-office pentru Administrator', link: '/flows/admin-backoffice' },
                 ],
             },
+            {
+                text: 'Regulamente EMC',
+                items: [
+                    { text: 'Regulamentul până la decembrie 2026', link: '/emc-regulations' },
+                    { text: 'Regulamentul începând cu ianuarie 2027', link: '/emc-regulations-2027' },
+                ],
+            },
         ],
         sidebar: {
             '/audiences/': [
@@ -71,6 +78,8 @@ export default defineConfig({
                         { text: 'Setările contului Medic', link: '/flows/medic-settings' },
                         { text: 'Ciclul de viață al membrului', link: '/flows/member-lifecycle' },
                         { text: 'Back-office pentru Administrator', link: '/flows/admin-backoffice' },
+                        { text: 'Regulamentul EMC până la decembrie 2026', link: '/emc-regulations' },
+                        { text: 'Regulamentul EMC din ianuarie 2027', link: '/emc-regulations-2027' },
                     ],
                 },
             ],
@@ -99,6 +108,8 @@ export default defineConfig({
                         { text: 'Setările contului Medic', link: '/flows/medic-settings' },
                         { text: 'Ciclul de viață al membrului', link: '/flows/member-lifecycle' },
                         { text: 'Back-office pentru Administrator', link: '/flows/admin-backoffice' },
+                        { text: 'Regulamentul EMC până la decembrie 2026', link: '/emc-regulations' },
+                        { text: 'Regulamentul EMC din ianuarie 2027', link: '/emc-regulations-2027' },
                     ],
                 },
             ],

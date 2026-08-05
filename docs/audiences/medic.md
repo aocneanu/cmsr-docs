@@ -20,7 +20,7 @@ Medicul folosește aceleași funcții My CMSR pe web, iOS și Android.
   - **[Adrese](/flows/medic-settings#adrese-de-corespondenta)** — gestionarea adreselor asociate profilului.
   - **[Locuri de muncă](/flows/medic-settings#locuri-de-munca)** — administrarea locurilor de muncă și a perioadelor de activitate.
 - **[Plăți](/flows/contributions-payments)** — consultarea situației cotizației și a istoricului plăților.
-- **[Credite EMC](/flows/emc-credits)** — Consultarea progresului, transmiterea și urmărirea cererilor deschise pentru acordarea de credite EMC.
+- **[Credite EMC](/flows/emc-credits)** — Consultarea progresului, transmiterea și urmărirea cererilor deschise pentru acordarea de credite EMC. Consultă și [Regulamentele EMC](/emc-regulations).
 - **[Diplome](/flows/medic-diplomas)** — consultarea diplomelor pentru evenimentele eligibile. Profilul demonstrativ nu are încă diplome disponibile.
 - **[Cereri](/flows/request-lifecycle)** — selectarea și completarea cererilor cu datele și documentele solicitate. Pentru cererile care folosesc documente tipizate, aplicația poate genera documente pe baza șabloanelor configurate, cu câmpuri precompletate.
 - **[Mesaje și notificări](/flows/communication-support)** — confirmări și informări despre profil și cereri.

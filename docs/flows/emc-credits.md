@@ -2,6 +2,8 @@
 
 Medicul solicită acordarea creditelor EMC, iar Operatorul din colegiul teritorial verifică cererea și documentele trimise.
 
+Vezi și [Regulamentele EMC](/emc-regulations) pentru cicluri, surse eligibile și limitele de creditare.
+
 ## Fluxul cererii EMC
 
 <FlowDiagram
