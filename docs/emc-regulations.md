@@ -74,7 +74,7 @@ Sunt luate în calcul cinci abonamente în ciclul de 5 ani: cel mult două pentr
 
 ### Suspendare la cerere
 
-Suspendarea la cerere poate avea durata de cel mult 5 ani. Limitele minime EMC și cotizațiile se reduc proporțional cu numărul lunilor de suspendare. Reducerea se calculează la ciclul de 5 ani, raportat la 200 de credite în 60 de luni.
+Suspendarea la cerere poate avea durata de cel mult 5 ani. Limitele minime EMC și cotizațiile se reduc proporțional cu numărul lunilor de suspendare. Reducerea se calculează atât pentru ciclul anual, raportat la 24 de credite în 12 luni, cât și pentru ciclul profesional de 5 ani, raportat la 200 de credite în 60 de luni.
 
 O lună este luată în calcul numai dacă medicul nu a fost activ în nicio zi din acea lună.
 
