@@ -27,6 +27,7 @@ export default defineConfig({
                     {
                         text: 'Operator',
                         items: [
+                            { text: 'Perspectivă Operator', link: '/audiences/operator' },
                             { text: 'Evidența membrilor', link: '/flows/operator-members' },
                             { text: 'Înscriere, transfer, suspendare, radiere și reînscriere', link: '/flows/member-lifecycle' },
                             { text: 'Dosare și documente', link: '/flows/profile-document-validation' },
@@ -38,6 +39,7 @@ export default defineConfig({
                     {
                         text: 'Medic',
                         items: [
+                            { text: 'Perspectivă Medic', link: '/audiences/medic' },
                             { text: 'Dashboard, profil și documente', link: '/flows/medic-profile' },
                             { text: 'Semnătură, facturare și adrese', link: '/flows/medic-settings' },
                             { text: 'Cotizație și plată', link: '/flows/contributions-payments' },
@@ -51,17 +53,10 @@ export default defineConfig({
                     {
                         text: 'Administrator',
                         items: [
+                            { text: 'Perspectivă Administrator', link: '/audiences/administrator' },
                             { text: 'Back-office și acțiuni corective', link: '/flows/admin-backoffice' },
                         ],
                     },
-                ],
-            },
-            {
-                text: 'Perspective',
-                items: [
-                    { text: 'Operator', link: '/audiences/operator' },
-                    { text: 'Medic', link: '/audiences/medic' },
-                    { text: 'Administrator', link: '/audiences/administrator' },
                 ],
             },
             {
