@@ -67,8 +67,8 @@ Documentele încărcate de Medic sunt trimise Operatorului din colegiul teritori
 Zona **Document Validations** reunește documentele care trebuie verificate de Operator. Sumarul arată câte documente sunt în așteptare, aprobate sau respinse, iar lista poate fi căutată și filtrată după tip și stare.
 
 <figure class="cmsr-doc-screenshot">
-    <a href="/screenshots/profile-document-validation/02-operator-validation-queue.jpg" target="_blank">
-        <img src="/screenshots/profile-document-validation/02-operator-validation-queue.jpg"
+    <a href="/screenshots/profile-document-validation/02-lista-validari-operator.png" target="_blank">
+        <img src="/screenshots/profile-document-validation/02-lista-validari-operator.png"
             alt="Coada de validare a documentelor pentru Operator"
             loading="lazy">
     </a>
@@ -80,16 +80,16 @@ Zona **Document Validations** reunește documentele care trebuie verificate de O
 În detaliu, Operatorul consultă informațiile membrului, câmpurile specifice tipului de document și previzualizarea PDF. Starea poate fi actualizată împreună cu valorile documentului, folosind opțiunile active configurate în sistem.
 
 <figure class="cmsr-doc-screenshot">
-    <a href="/screenshots/profile-document-validation/03-operator-document-review.jpg" target="_blank">
-        <img src="/screenshots/profile-document-validation/03-operator-document-review.jpg"
+    <a href="/screenshots/profile-document-validation/03-verificare-document-operator.png" target="_blank">
+        <img src="/screenshots/profile-document-validation/03-verificare-document-operator.png"
             alt="Revizuirea unei asigurări în interfața Operatorului"
             loading="lazy">
     </a>
     <figcaption>Operatorul verifică datele asigurării și documentul PDF înainte de a lua o decizie.</figcaption>
 </figure>
 
-::: info Date demonstrative
-Datele și documentele din capturi sunt demonstrative. Criteriile de aprobare și termenele de soluționare depind de tipul documentului și de regulile aplicabile.
+::: info Criterii de verificare
+Criteriile de aprobare și termenele de soluționare depind de tipul documentului și de regulile aplicabile.
 :::
 
 Vezi și [Profilul Medicului și documentele](/flows/medic-profile), [Evidența membrilor pentru Operator](/flows/operator-members) și [Credite EMC: transmitere și procesare](/flows/emc-credits).

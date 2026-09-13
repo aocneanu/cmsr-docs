@@ -7,8 +7,8 @@ Din **Profil**, Medicul își poate administra semnătura, datele de facturare, 
 Semnătura poate fi desenată direct în spațiul dedicat. Controalele permit golirea zonei și finalizarea semnăturii înainte de salvare.
 
 <figure class="cmsr-doc-screenshot">
-    <a href="/screenshots/medic-settings/01-signature.jpg" target="_blank">
-        <img src="/screenshots/medic-settings/01-signature.jpg"
+    <a href="/screenshots/medic-settings/01-semnatura.png" target="_blank">
+        <img src="/screenshots/medic-settings/01-semnatura.png"
             alt="Zona pentru semnătura Medicului"
             loading="lazy">
     </a>
@@ -20,12 +20,12 @@ Semnătura poate fi desenată direct în spațiul dedicat. Controalele permit go
 Medicul poate adăuga date de facturare pentru o persoană sau o organizație, inclusiv identificatorul fiscal și adresa.
 
 <figure class="cmsr-doc-screenshot">
-    <a href="/screenshots/medic-settings/02-billing.jpg" target="_blank">
-        <img src="/screenshots/medic-settings/02-billing.jpg"
-            alt="Formularul pentru date de facturare"
+    <a href="/screenshots/medic-settings/02-profiluri-plata.png" target="_blank">
+        <img src="/screenshots/medic-settings/02-profiluri-plata.png"
+            alt="Lista profilurilor de plată ale Medicului"
             loading="lazy">
     </a>
-    <figcaption>Câmpurile disponibile pentru un profil de facturare.</figcaption>
+    <figcaption>Din lista profilurilor de plată, Medicul poate adăuga un profil nou.</figcaption>
 </figure>
 
 ## Adrese de corespondență
@@ -33,12 +33,12 @@ Medicul poate adăuga date de facturare pentru o persoană sau o organizație, i
 Adresele de livrare sau corespondență includ persoana de contact, telefonul, emailul, codul poștal și localizarea completă.
 
 <figure class="cmsr-doc-screenshot">
-    <a href="/screenshots/medic-settings/03-address.jpg" target="_blank">
-        <img src="/screenshots/medic-settings/03-address.jpg"
-            alt="Formularul pentru o adresă de corespondență"
+    <a href="/screenshots/medic-settings/03-adrese.png" target="_blank">
+        <img src="/screenshots/medic-settings/03-adrese.png"
+            alt="Lista adreselor de corespondență ale Medicului"
             loading="lazy">
     </a>
-    <figcaption>Adăugarea unei adrese asociate profilului.</figcaption>
+    <figcaption>Din lista adreselor, Medicul poate adăuga o adresă nouă.</figcaption>
 </figure>
 
 ## Locuri de muncă
@@ -46,12 +46,12 @@ Adresele de livrare sau corespondență includ persoana de contact, telefonul, e
 Pentru fiecare loc de muncă pot fi înregistrate angajatorul, perioada, tipul colaborării, localizarea și starea activă.
 
 <figure class="cmsr-doc-screenshot">
-    <a href="/screenshots/medic-settings/04-workplace.jpg" target="_blank">
-        <img src="/screenshots/medic-settings/04-workplace.jpg"
-            alt="Formularul pentru un loc de muncă al Medicului"
+    <a href="/screenshots/medic-settings/04-locuri-munca.png" target="_blank">
+        <img src="/screenshots/medic-settings/04-locuri-munca.png"
+            alt="Lista locurilor de muncă ale Medicului"
             loading="lazy">
     </a>
-    <figcaption>Informațiile profesionale disponibile pentru un loc de muncă.</figcaption>
+    <figcaption>Din lista locurilor de muncă, Medicul poate adăuga o înregistrare nouă.</figcaption>
 </figure>
 
 ## Schimbarea parolei
@@ -59,16 +59,12 @@ Pentru fiecare loc de muncă pot fi înregistrate angajatorul, perioada, tipul c
 Parola contului poate fi schimbată din profil prin confirmarea parolei curente și introducerea noii parole de două ori.
 
 <figure class="cmsr-doc-screenshot">
-    <a href="/screenshots/medic-settings/05-password.jpg" target="_blank">
-        <img src="/screenshots/medic-settings/05-password.jpg"
+    <a href="/screenshots/medic-settings/05-schimbare-parola.png" target="_blank">
+        <img src="/screenshots/medic-settings/05-schimbare-parola.png"
             alt="Formularul de schimbare a parolei"
             loading="lazy">
     </a>
     <figcaption>Schimbarea parolei dintr-o sesiune autentificată.</figcaption>
 </figure>
-
-::: info Date demonstrative
-Formularele din capturi nu au fost trimise. Pentru completare se aplică regulile fiscale, juridice și de securitate corespunzătoare fiecărei situații.
-:::
 
 Vezi și [Profilul Medicului și documentele](/flows/medic-profile), [Acces și securitate](/flows/access-security) și [Document de profil: transmitere și validare](/flows/profile-document-validation).

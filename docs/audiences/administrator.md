@@ -39,4 +39,8 @@ Administratorul configurează și administrează My CMSR din interfața web de b
 
 ## Rol în sistem
 
-Configurările Administratorului susțin funcțiile folosite de Medic și Operator. Vezi [funcțiile din back-office](/flows/admin-backoffice), [legăturile dintre roluri](/flows/) și pașii pentru [resetarea parolei](/flows/access-security).
+Configurările Administratorului susțin funcțiile folosite de Medic și Operator. Când o decizie a Operatorului este greșită, Administratorul poate verifica istoricul și poate aplica acțiunea corectivă disponibilă în back-office. Modificarea rămâne vizibilă în audit.
+
+Corecția poate privi datele unui membru, rezultatul verificării unui document, o cerere, un credit EMC sau o operațiune de cotizație. Câmpurile blocate de starea curentă se corectează prin fluxul dedicat.
+
+Vezi [funcțiile din back-office](/flows/admin-backoffice), [legăturile dintre roluri](/flows/) și pașii pentru [resetarea parolei](/flows/access-security).

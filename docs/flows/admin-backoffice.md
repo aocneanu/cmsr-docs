@@ -2,6 +2,57 @@
 
 Administratorul configurează și administrează My CMSR din interfața web de back-office. Pagina prezintă principalele zone de lucru și instrumentele disponibile.
 
+## Acțiuni corective asupra deciziilor Operatorului
+
+Administratorul poate corecta o decizie operațională atunci când verificarea istoricului arată că Operatorul a înregistrat un rezultat greșit. Intervenția pornește de la înregistrarea afectată, folosește numai acțiunile permise în back-office și păstrează motivul și urma de audit.
+
+<FlowDiagram
+    title="Decizie Operator → corecție Administrator"
+    description="Corecția este o intervenție controlată și trasabilă, nu o scurtătură peste fluxul operațional."
+    :steps='[
+        {
+            type: "start",
+            role: "Operator",
+            title: "Înregistrează decizia operațională",
+            description: "Decizia poate privi starea membrului, un document, o cerere, un credit EMC sau o operațiune de cotizație.",
+        },
+        {
+            type: "decision",
+            role: "Administrator",
+            title: "Verifică decizia și istoricul",
+            description: "Administratorul confirmă eroarea și identifică înregistrarea care trebuie corectată.",
+            branches: [
+                {
+                    label: "Decizie corectă",
+                    title: "Nu intervine",
+                    description: "Fluxul Operatorului rămâne sursa deciziei curente.",
+                    type: "success",
+                },
+                {
+                    label: "Eroare confirmată",
+                    title: "Aplică acțiunea corectivă permisă",
+                    description: "Actualizează rezultatul sau datele asociate și consemnează motivul intervenției.",
+                    type: "warning",
+                },
+            ],
+        },
+        {
+            type: "end",
+            role: "Audit",
+            title: "Păstrează trasabilitatea",
+            description: "Jurnalele permit reconstituirea deciziei inițiale și a modificării administrative.",
+        },
+    ]'
+/>
+
+Acțiunile disponibile depind de starea înregistrării. Dacă un câmp este blocat, corecția se face prin fluxul dedicat, fără să fie sărite validările sau documentele obligatorii.
+
+<figure class="cmsr-doc-screenshot"><a href="/screenshots/admin-backoffice/21-catalog-profiluri.png" target="_blank"><img src="/screenshots/admin-backoffice/21-catalog-profiluri.png" alt="Catalogul profilurilor disponibil Administratorului" loading="lazy"></a><figcaption>Administratorul găsește profilul după colegiu, grad profesional, universitate, tip și stare.</figcaption></figure>
+
+<figure class="cmsr-doc-screenshot"><a href="/screenshots/admin-backoffice/22-editare-profil.png" target="_blank"><img src="/screenshots/admin-backoffice/22-editare-profil.png" alt="Formularul de editare a profilului în back-office" loading="lazy"></a><figcaption>Formularul arată câmpurile care pot fi corectate și informațiile blocate de regulile stării curente.</figcaption></figure>
+
+<figure class="cmsr-doc-screenshot"><a href="/screenshots/admin-backoffice/26-cereri-emc.png" target="_blank"><img src="/screenshots/admin-backoffice/26-cereri-emc.png" alt="Cererile de credite EMC în back-office" loading="lazy"></a><figcaption>Din registrele administrative poate fi deschisă înregistrarea care necesită verificare sau corecție.</figcaption></figure>
+
 ## Bookmarks și tabele
 
 Bookmarks păstrează mai multe pagini deschise și permite comutarea rapidă între ele. Tabelele oferă filtrare, sortare, căutare, paginare și export Excel.
@@ -153,9 +204,5 @@ Zona **Statuses** separă stările pentru documente de profil, documente de cere
     </a>
     <figcaption>Stările de lucru folosite de fluxul de validare a documentelor.</figcaption>
 </figure>
-
-::: info Date demonstrative
-Capturile folosesc date demonstrative și nu conțin date personale. Formularele care ar modifica datele nu au fost trimise.
-:::
 
 Vezi și [Mesaje, notificări și ajutor](/flows/communication-support), [Cotizații și plăți](/flows/contributions-payments), [Cereri: de la Medic la Operator](/flows/request-lifecycle) și [Transmiterea și validarea documentelor de profil](/flows/profile-document-validation).

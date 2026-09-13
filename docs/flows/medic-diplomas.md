@@ -40,16 +40,12 @@ Zona **Diplome** reunește diplomele asociate evenimentelor acreditate CMSR și 
 ### Lista diplomelor
 
 <figure class="cmsr-doc-screenshot">
-    <a href="/screenshots/medic-diplomas/01-lista-diplomelor.png" target="_blank">
-        <img src="/screenshots/medic-diplomas/01-lista-diplomelor.png"
+    <a href="/screenshots/medic-diplomas/01-lista-diplomelor-actuala.png" target="_blank">
+        <img src="/screenshots/medic-diplomas/01-lista-diplomelor-actuala.png"
             alt="Zona Diplome fără evenimente eligibile pentru profilul Medicului"
             loading="lazy">
     </a>
     <figcaption>Chiar dacă nu există diplome, căutarea și filtrele rămân disponibile.</figcaption>
 </figure>
-
-::: info Date demonstrative
-Profilul demonstrativ nu are evenimente eligibile pentru emiterea unei diplome, astfel că lista este goală.
-:::
 
 Vezi și [Credite EMC: transmitere și procesare](/flows/emc-credits) și [Profilul Medicului și documentele](/flows/medic-profile).

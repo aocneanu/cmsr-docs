@@ -75,8 +75,8 @@ Fiecare rol primește notificările care îi sunt adresate. Medicul are și o zo
 Zona **Mesaje** afișează notificările primite, momentul transmiterii și starea de citire. Exemplul pornește de la cererea transmisă de Medic.
 
 <figure class="cmsr-doc-screenshot">
-    <a href="/screenshots/communication-support/01-medic-inbox.jpg" target="_blank">
-        <img src="/screenshots/communication-support/01-medic-inbox.jpg"
+    <a href="/screenshots/communication-support/01-mesaje-medic.png" target="_blank">
+        <img src="/screenshots/communication-support/01-mesaje-medic.png"
             alt="Lista de notificări din contul Medicului"
             loading="lazy">
     </a>
@@ -99,8 +99,8 @@ Deschiderea mesajului afișează expeditorul de sistem, titlul, data și conțin
 Operatorul primește notificările operaționale în zona dedicată. Sumarul arată mesajele necitite, activitatea zilei, mesajele procesate și totalul, iar lista poate fi căutată și filtrată după stare.
 
 <figure class="cmsr-doc-screenshot">
-    <a href="/screenshots/communication-support/03-operator-inbox.jpg" target="_blank">
-        <img src="/screenshots/communication-support/03-operator-inbox.jpg"
+    <a href="/screenshots/communication-support/03-mesaje-operator.png" target="_blank">
+        <img src="/screenshots/communication-support/03-mesaje-operator.png"
             alt="Inbox-ul de notificări al Operatorului"
             loading="lazy">
     </a>
@@ -112,8 +112,8 @@ Operatorul primește notificările operaționale în zona dedicată. Sumarul ara
 Secțiunea **Întrebări frecvente** grupează răspunsurile publicate în platformă. Medicul poate deschide răspunsul dorit direct din aplicația My CMSR.
 
 <figure class="cmsr-doc-screenshot">
-    <a href="/screenshots/communication-support/04-medic-faq.jpg" target="_blank">
-        <img src="/screenshots/communication-support/04-medic-faq.jpg"
+    <a href="/screenshots/communication-support/04-intrebari-frecvente-medic.png" target="_blank">
+        <img src="/screenshots/communication-support/04-intrebari-frecvente-medic.png"
             alt="Întrebări frecvente și un răspuns deschis în contul Medicului"
             loading="lazy">
     </a>

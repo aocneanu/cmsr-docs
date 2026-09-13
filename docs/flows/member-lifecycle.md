@@ -1,6 +1,6 @@
 # Ciclul de viață al membrului
 
-Operatorul gestionează înscrierea, transferul, suspendarea și radierea membrilor din colegiul teritorial. Fiecare schimbare este păstrată în istoricul membrului.
+Operatorul gestionează înscrierea, transferul, suspendarea, radierea și reînscrierea membrilor din colegiul teritorial. Fiecare schimbare este păstrată în istoricul membrului.
 
 ## Fluxul operațional
 
@@ -33,6 +33,12 @@ Operatorul gestionează înscrierea, transferul, suspendarea și radierea membri
                     type: "success",
                 },
                 {
+                    label: "Transfer · Rezultat",
+                    title: "Membrul este transferat",
+                    description: "Colegiul de destinație și data efectivă sunt înregistrate, iar profilul intră în starea corespunzătoare transferului.",
+                    type: "handoff",
+                },
+                {
                     label: "Suspendare · Rezultat",
                     title: "Membrul este suspendat",
                     description: "Suspendarea este înregistrată în istoricul și starea membrului.",
@@ -51,20 +57,20 @@ Operatorul gestionează înscrierea, transferul, suspendarea și radierea membri
 
 ## Capturi din flux
 
-<figure class="cmsr-doc-screenshot"><a href="/screenshots/member-lifecycle/01-member-timeline.jpg" target="_blank"><img src="/screenshots/member-lifecycle/01-member-timeline.jpg" alt="Istoricul schimbărilor înregistrate pentru un membru" loading="lazy"></a><figcaption>Istoricul arată schimbările înregistrate pentru membru.</figcaption></figure>
+<figure class="cmsr-doc-screenshot"><a href="/screenshots/member-lifecycle/01-istoric-membru.png" target="_blank"><img src="/screenshots/member-lifecycle/01-istoric-membru.png" alt="Istoricul schimbărilor înregistrate pentru un membru" loading="lazy"></a><figcaption>Cronologia arată starea curentă și acțiunile disponibile pentru membru.</figcaption></figure>
 
-<figure class="cmsr-doc-screenshot"><a href="/screenshots/member-lifecycle/05-inscriere-reinscriere.png" target="_blank"><img src="/screenshots/member-lifecycle/05-inscriere-reinscriere.png" alt="Înscrierea sau reînscrierea unui membru radiat" loading="lazy"></a><figcaption>Operatorul selectează colegiul și data efectivă pentru înscrierea sau reînscrierea unui membru eligibil.</figcaption></figure>
+<figure class="cmsr-doc-screenshot"><a href="/screenshots/member-lifecycle/02-transfer-actual.png" target="_blank"><img src="/screenshots/member-lifecycle/02-transfer-actual.png" alt="Formularul pentru transferul unui membru" loading="lazy"></a><figcaption>Operatorul alege colegiul și data de la care se aplică transferul.</figcaption></figure>
 
-<figure class="cmsr-doc-screenshot"><a href="/screenshots/member-lifecycle/02-transfer.jpg" target="_blank"><img src="/screenshots/member-lifecycle/02-transfer.jpg" alt="Formularul pentru transferul unui membru" loading="lazy"></a><figcaption>Operatorul alege colegiul și data de la care se aplică transferul.</figcaption></figure>
+<figure class="cmsr-doc-screenshot"><a href="/screenshots/member-lifecycle/03-suspendare-actuala.png" target="_blank"><img src="/screenshots/member-lifecycle/03-suspendare-actuala.png" alt="Formularul pentru suspendarea unui membru" loading="lazy"></a><figcaption>Operatorul completează tipul suspendării și data de la care aceasta se aplică.</figcaption></figure>
 
-<figure class="cmsr-doc-screenshot"><a href="/screenshots/member-lifecycle/03-suspend.jpg" target="_blank"><img src="/screenshots/member-lifecycle/03-suspend.jpg" alt="Formularul pentru suspendarea unui membru" loading="lazy"></a><figcaption>Operatorul completează tipul suspendării și data de la care aceasta se aplică.</figcaption></figure>
+<figure class="cmsr-doc-screenshot"><a href="/screenshots/member-lifecycle/04-radiere-actuala.png" target="_blank"><img src="/screenshots/member-lifecycle/04-radiere-actuala.png" alt="Formularul pentru radierea unui membru" loading="lazy"></a><figcaption>Operatorul completează motivul radierii și data de la care aceasta se aplică.</figcaption></figure>
 
-<figure class="cmsr-doc-screenshot"><a href="/screenshots/member-lifecycle/04-deregister.jpg" target="_blank"><img src="/screenshots/member-lifecycle/04-deregister.jpg" alt="Formularul pentru radierea unui membru" loading="lazy"></a><figcaption>Operatorul completează motivul radierii și data de la care aceasta se aplică.</figcaption></figure>
+<figure class="cmsr-doc-screenshot"><a href="/screenshots/member-lifecycle/05-inscriere-reinscriere-actuala.png" target="_blank"><img src="/screenshots/member-lifecycle/05-inscriere-reinscriere-actuala.png" alt="Înscrierea sau reînscrierea unui membru radiat" loading="lazy"></a><figcaption>După radiere, Operatorul poate reînscrie un membru eligibil, alegând colegiul și data efectivă.</figcaption></figure>
 
-::: warning În curs de clarificare
-„Activare” nu este încă documentată ca acțiune distinctă și nu apare în diagramă sau în capturi.
+::: info Activarea profilului
+Activarea nu este o comandă independentă a ciclului de viață. Pentru un profil eligibil, ea este rezultatul aprobării dosarului de către Operator în [Asistent completare dosar](/flows/profile-onboarding).
 :::
 
-::: info Date demonstrative
-Formularul de înscriere sau reînscriere din captură nu a fost trimis.
+::: warning Reluarea activității
+Acțiunea de reluare este afișată condiționat de starea profilului. Documentația nu include încă o captură separată, deoarece în datele demonstrative verificate nu a fost disponibil un ecran valid pentru această stare.
 :::

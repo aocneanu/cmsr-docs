@@ -54,8 +54,8 @@ Accesul în My CMSR este comun administratorului, operatorului și medicului.
 ### Accesul la resetarea parolei
 
 <figure class="cmsr-doc-screenshot">
-    <a href="/screenshots/password-reset/01-login-forgot-password.jpg" target="_blank">
-        <img src="/screenshots/password-reset/01-login-forgot-password.jpg"
+    <a href="/screenshots/password-reset/01-autentificare.png" target="_blank">
+        <img src="/screenshots/password-reset/01-autentificare.png"
             alt="Accesul la opțiunea de resetare a parolei din pagina de autentificare My CMSR"
             loading="lazy">
     </a>
@@ -65,24 +65,15 @@ Accesul în My CMSR este comun administratorului, operatorului și medicului.
 ### Solicitarea legăturii de resetare
 
 <figure class="cmsr-doc-screenshot">
-    <a href="/screenshots/password-reset/02-request-reset-link.jpg" target="_blank">
-        <img src="/screenshots/password-reset/02-request-reset-link.jpg"
+    <a href="/screenshots/password-reset/02-solicitare-resetare.png" target="_blank">
+        <img src="/screenshots/password-reset/02-solicitare-resetare.png"
             alt="Formularul My CMSR pentru solicitarea legăturii de resetare a parolei"
             loading="lazy">
     </a>
     <figcaption>Formularul în care utilizatorul introduce adresa de e-mail pentru a solicita legătura de resetare.</figcaption>
 </figure>
 
-### Confirmarea solicitării
-
-<figure class="cmsr-doc-screenshot">
-    <a href="/screenshots/password-reset/03-reset-link-confirmation.jpg" target="_blank">
-        <img src="/screenshots/password-reset/03-reset-link-confirmation.jpg"
-            alt="Confirmarea My CMSR pentru solicitarea legăturii de resetare a parolei"
-            loading="lazy">
-    </a>
-    <figcaption>Confirmarea afișată după trimiterea solicitării pentru resetarea parolei.</figcaption>
-</figure>
+După trimitere, My CMSR confirmă solicitarea și expediază linkul la adresa asociată contului.
 
 ::: info De reținut
 Perioada de valabilitate a linkului și regulile pentru alegerea parolei nu sunt descrise în această pagină.

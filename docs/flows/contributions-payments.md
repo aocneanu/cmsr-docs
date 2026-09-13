@@ -1,4 +1,4 @@
-# Cotizația Medicului și evidența Operatorului
+# Cotizație și plată
 
 Medicul își consultă cotizațiile și plățile, iar Operatorul înregistrează și urmărește plățile membrilor din colegiul teritorial. Exemplul prezintă o plată în numerar pentru luna curentă.
 
@@ -113,11 +113,11 @@ După inițierea plății, My CMSR deschide formularul securizat al Băncii Tran
 
 ## Situația cotizației
 
-În zona **Payments**, Medicul vede ultima lună achitată și starea curentă a cotizației. Istoricul afișează metoda, data, suma și starea fiecărei plăți.
+În zona **Plăți**, Medicul vede ultima lună achitată și starea curentă a cotizației. Istoricul afișează metoda, data, suma și starea fiecărei plăți.
 
 <figure class="cmsr-doc-screenshot">
-    <a href="/screenshots/contributions-payments/01-medic-payment-history.jpg" target="_blank">
-        <img src="/screenshots/contributions-payments/01-medic-payment-history.jpg"
+    <a href="/screenshots/contributions-payments/01-istoric-plati-medic.png" target="_blank">
+        <img src="/screenshots/contributions-payments/01-istoric-plati-medic.png"
             alt="Istoricul cotizațiilor disponibil Medicului în My CMSR"
             loading="lazy">
     </a>
@@ -129,8 +129,8 @@ După inițierea plății, My CMSR deschide formularul securizat al Băncii Tran
 Pagina plății prezintă referința, starea, data, suma, metoda și datele de facturare asociate. În exemplu, plata este marcată **Plătită** și a fost înregistrată în numerar.
 
 <figure class="cmsr-doc-screenshot">
-    <a href="/screenshots/contributions-payments/02-medic-payment-details.jpg" target="_blank">
-        <img src="/screenshots/contributions-payments/02-medic-payment-details.jpg"
+    <a href="/screenshots/contributions-payments/02-detalii-plata-medic.png" target="_blank">
+        <img src="/screenshots/contributions-payments/02-detalii-plata-medic.png"
             alt="Detaliile unei plăți de cotizație în contul Medicului"
             loading="lazy">
     </a>
@@ -139,11 +139,11 @@ Pagina plății prezintă referința, starea, data, suma, metoda și datele de f
 
 ## Evidența cotizațiilor
 
-Operatorul poate căuta membrul după nume sau cod RU și vede suma, data, metoda și starea cotizației. Aceeași plată apare cu starea **Paid** în interfața Operatorului.
+Operatorul deschide profilul membrului și fila **Cotizații**, de unde poate consulta istoricul sau poate folosi acțiunea **Înregistrează plata**. La înregistrare alege perioada, metoda de plată și datele de facturare; plata achitată apare cu starea **Plătită**.
 
 <figure class="cmsr-doc-screenshot">
-    <a href="/screenshots/contributions-payments/03-operator-contribution-filtered.jpg" target="_blank">
-        <img src="/screenshots/contributions-payments/03-operator-contribution-filtered.jpg"
+    <a href="/screenshots/contributions-payments/03-operator-cotizatii.png" target="_blank">
+        <img src="/screenshots/contributions-payments/03-operator-cotizatii.png"
             alt="Cotizația unui membru în evidența Operatorului My CMSR"
             loading="lazy">
     </a>
@@ -152,19 +152,19 @@ Operatorul poate căuta membrul după nume sau cod RU și vede suma, data, metod
 
 ## Operațiunea de ghișeu
 
-Plățile în numerar și cu cardul la ghișeu sunt urmărite separat în zona **Counter Operations**. Lista arată data, referința, membrul, perioada, suma, metoda și Operatorul care a înregistrat plata.
+Plățile în numerar și cu cardul la ghișeu sunt urmărite separat în zona **Tranzacții**. Lista arată data, referința, membrul, perioada, suma, metoda și Operatorul care a înregistrat plata.
 
 <figure class="cmsr-doc-screenshot">
-    <a href="/screenshots/contributions-payments/04-operator-counter-operation.jpg" target="_blank">
-        <img src="/screenshots/contributions-payments/04-operator-counter-operation.jpg"
+    <a href="/screenshots/contributions-payments/04-operator-tranzactii.png" target="_blank">
+        <img src="/screenshots/contributions-payments/04-operator-tranzactii.png"
             alt="O plată înregistrată în lista operațiunilor de ghișeu"
             loading="lazy">
     </a>
     <figcaption>Plata în numerar apare în lista operațiunilor de ghișeu.</figcaption>
 </figure>
 
-::: info Date demonstrative
-Plățile și datele din capturi sunt demonstrative. Capturile Băncii Transilvania provin din mediul de test; nu a fost inițiată nicio tranzacție reală.
+::: info Ecranul procesatorului de plăți
+Capturile Băncii Transilvania ilustrează mediul de test al procesatorului.
 :::
 
 Vezi și [Evidența membrilor pentru Operator](/flows/operator-members) și [Cerere Medic → procesare Operator](/flows/request-lifecycle).

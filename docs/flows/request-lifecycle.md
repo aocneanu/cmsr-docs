@@ -77,9 +77,11 @@ Medicul depune cererea online, iar Operatorul din colegiul teritorial o preia pe
 
 Medicul pornește din zona **Cereri**, unde vede tipurile disponibile pentru profilul său. Opțiunile care nu îndeplinesc cerințele curente sunt marcate separat, iar cele eligibile pot fi deschise pentru completare.
 
+Tot din această zonă pornesc solicitările care schimbă situația profesională a Medicului, precum **transferul**, **suspendarea** și **radierea**. Parcursul, decizia Operatorului și reînscrierea ulterioară sunt prezentate separat în [Înscriere, transfer, suspendare, radiere și reînscriere](/flows/member-lifecycle).
+
 <figure class="cmsr-doc-screenshot">
-    <a href="/screenshots/request-lifecycle/01-medic-request-types.jpg" target="_blank">
-        <img src="/screenshots/request-lifecycle/01-medic-request-types.jpg"
+    <a href="/screenshots/request-lifecycle/01-tipuri-cereri-medic.png" target="_blank">
+        <img src="/screenshots/request-lifecycle/01-tipuri-cereri-medic.png"
             alt="Tipurile de cereri disponibile Medicului în My CMSR"
             loading="lazy">
     </a>
@@ -106,8 +108,8 @@ După transmitere, My CMSR atribuie o referință și afișează starea curentă
 Lista include cererile din aria de lucru a Operatorului. Pentru fiecare cerere sunt afișate referința, tipul, membrul, codul RU, data, suma și starea, iar rezultatele pot fi filtrate.
 
 <figure class="cmsr-doc-screenshot">
-    <a href="/screenshots/request-lifecycle/03-operator-request-queue.jpg" target="_blank">
-        <img src="/screenshots/request-lifecycle/03-operator-request-queue.jpg"
+    <a href="/screenshots/request-lifecycle/03-cereri-operator.png" target="_blank">
+        <img src="/screenshots/request-lifecycle/03-cereri-operator.png"
             alt="Cererea nouă în lista de solicitări a operatorului"
             loading="lazy">
     </a>
@@ -129,10 +131,6 @@ Pagina de detaliu reunește informațiile cererii, membrul, datele de facturare 
 
 ::: info De reținut
 Documentele necesare, regulile de aprobare și termenele de procesare diferă în funcție de tipul cererii.
-:::
-
-::: info Date demonstrative
-Datele și cererea din capturi sunt demonstrative.
 :::
 
 Vezi și [Profilul Medicului și documentele](/flows/medic-profile) și [Evidența membrilor pentru Operator](/flows/operator-members).

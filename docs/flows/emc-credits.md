@@ -58,11 +58,11 @@ Vezi și [Regulamentele EMC](/emc-regulations) pentru cicluri, surse eligibile �
 
 ## Capturi din flux
 
-<figure class="cmsr-doc-screenshot"><a href="/screenshots/emc-credits/01-medic-emc-overview.jpg" target="_blank"><img src="/screenshots/emc-credits/01-medic-emc-overview.jpg" alt="Situația creditelor EMC din contul Medicului" loading="lazy"></a><figcaption>Medicul vede progresul creditelor EMC și poate începe o cerere nouă.</figcaption></figure>
+<figure class="cmsr-doc-screenshot"><a href="/screenshots/emc-credits/01-situatie-emc-medic.png" target="_blank"><img src="/screenshots/emc-credits/01-situatie-emc-medic.png" alt="Situația creditelor EMC din contul Medicului" loading="lazy"></a><figcaption>Medicul vede progresul creditelor EMC și poate începe o cerere nouă.</figcaption></figure>
 
-<figure class="cmsr-doc-screenshot"><a href="/screenshots/emc-credits/02-operator-emc-queue.jpg" target="_blank"><img src="/screenshots/emc-credits/02-operator-emc-queue.jpg" alt="Coada cererilor EMC a Operatorului" loading="lazy"></a><figcaption>Operatorul filtrează și deschide cererile EMC ale colegiului.</figcaption></figure>
+<figure class="cmsr-doc-screenshot"><a href="/screenshots/emc-credits/02-cereri-emc-operator.png" target="_blank"><img src="/screenshots/emc-credits/02-cereri-emc-operator.png" alt="Coada cererilor EMC a Operatorului" loading="lazy"></a><figcaption>Operatorul filtrează și deschide cererile EMC ale colegiului.</figcaption></figure>
 
-<figure class="cmsr-doc-screenshot"><a href="/screenshots/emc-credits/03-operator-emc-processing.jpg" target="_blank"><img src="/screenshots/emc-credits/03-operator-emc-processing.jpg" alt="Ecranul pentru verificarea unei cereri EMC" loading="lazy"></a><figcaption>Operatorul consultă documentul și informațiile despre sursa creditelor.</figcaption></figure>
+<figure class="cmsr-doc-screenshot"><a href="/screenshots/emc-credits/03-procesare-emc-operator.png" target="_blank"><img src="/screenshots/emc-credits/03-procesare-emc-operator.png" alt="Ecranul pentru verificarea unei cereri EMC" loading="lazy"></a><figcaption>Operatorul consultă documentul și informațiile despre sursa creditelor.</figcaption></figure>
 
 ::: info Adăugarea de credite
 Operatorul poate adăuga direct credite EMC unui membru; creditul este înregistrat, iar Medicul este notificat.
