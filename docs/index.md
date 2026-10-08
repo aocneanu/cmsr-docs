@@ -15,6 +15,9 @@ hero:
     - theme: alt
       text: Vezi fluxurile
       link: /flows/
+    - theme: alt
+      text: Calendar de lansare
+      link: /launch-calendar
 ---
 
 <section class="cmsr-home-intro" aria-labelledby="despre-my-cmsr">

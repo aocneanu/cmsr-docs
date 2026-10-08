@@ -18,7 +18,13 @@ export default defineConfig({
         },
         nav: [
             { text: 'Acasă', link: '/' },
-            { text: 'Prezentare', link: '/flows/' },
+            {
+                text: 'Prezentare',
+                items: [
+                    { text: 'Prezentare generală', link: '/flows/' },
+                    { text: 'Calendar de lansare', link: '/launch-calendar' },
+                ],
+            },
             { text: 'Acces și securitate', link: '/flows/access-security' },
             { text: 'Asistent completare dosar', link: '/flows/profile-onboarding' },
             {
@@ -73,6 +79,7 @@ export default defineConfig({
                     text: 'Puncte comune',
                     items: [
                         { text: 'Prezentare', link: '/flows/' },
+                        { text: 'Calendar de lansare', link: '/launch-calendar' },
                         { text: 'Acces și securitate', link: '/flows/access-security' },
                         { text: 'Asistent completare dosar', link: '/flows/profile-onboarding' },
                     ],
@@ -91,6 +98,7 @@ export default defineConfig({
                     text: 'Puncte comune',
                     items: [
                         { text: 'Prezentare', link: '/flows/' },
+                        { text: 'Calendar de lansare', link: '/launch-calendar' },
                         { text: 'Acces și securitate', link: '/flows/access-security' },
                         { text: 'Asistent completare dosar', link: '/flows/profile-onboarding' },
                     ],
